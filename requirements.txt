@@ -1,0 +1,22 @@
+spacy
+docker
+xonsh
+openai
+playwright
+LangChain
+Jupyter
+JupyterLab
+# bitsandbytes **os-specific**
+# cuda **os-specific**
+llama-cpp-python
+llama-index
+semantic-kernal
+beautifulsoup3
+# localAI https://localai.io/basics/getting_started/index.html
+git https://github.com/go-skynet/LocalAI.git
+requests
+flask
+# LangChain Serve https://github.com/jina-ai/langchain-serve/blob/main/examples/rest/README.md
+git https://github.com/jina-ai/langchain-serve.git
+# Optional: scoop for windows (drop-in apt-get replacement)
+# WezTerm, kitty, etc. for windows

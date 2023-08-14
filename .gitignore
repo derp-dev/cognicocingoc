@@ -1,3 +1,52 @@
+<!-- windows apps -->
+scoop/
+WezTerm/
+Telegram/
+.vscode/
+textadept/
+python/
+py/
+docs/
+
+<!-- scratch -->
+jupyter/
+macros/
+
+
+<!-- github apps -->
+LocalAI/
+agency/
+ChatGPT_Automation/
+chatgpt-plugin/
+aim/
+beebot/
+codeinterpreter-api/
+aider/
+anything-llm/
+gorilla/
+semantickernal/
+taotie/
+privateGPT/
+DevOpsGPT/
+ama_prompting/
+researcher-gpt/
+OpenAIAuth/
+pandas-ai/
+Free-Auto-GPT/
+Local-LLM-Langchain/
+code-it/
+AgentForge/
+BMTools/
+git-llm/
+gpt4free/
+data-centric-ai/
+gpt-prompt-engineer/
+privateGPT/
+Quivr/
+SocialAGI/
+meili/
+swarms/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

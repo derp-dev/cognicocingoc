@@ -5,8 +5,8 @@ Telegram/
 .vscode/
 textadept/
 python/
-py/
 docs/
+.scratch/
 
 <!-- scratch -->
 jupyter/

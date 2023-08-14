@@ -12,7 +12,7 @@ if [[ $1 =~ ^[a-z]$ ]]; then
     # Check if the file exists
     if [[ -f "${1}func.c" ]]; then
         # Compile the C file
-        gcc -Wall -Wextra -o "${1}func.out" "${1}func.c" -v 2>&1
+        gcc -Wall -Wextra -pedantic -std=ansi -o "${1}func.out" "${1}func.c" -v 2>&1
     else
         # If the file does not exist, create it and open in vi editor
         touch "${1}func.c"

@@ -8,7 +8,7 @@ REM Check argument is single lowercase letter
 for /f "delims=a-z" %%i in ("%1") do goto invalid
 
 REM Set paths
-set MSYS_DIR=.\msys   REM Update this path based on your project structure
+set MSYS_DIR=/D:/
 set MSYS_EXE=%MSYS_DIR%\msys2.exe
 
 REM Check file exists

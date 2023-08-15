@@ -7,6 +7,7 @@ textadept/
 python/
 docs/
 .scratch/
+msys64/
 
 <!-- scratch -->
 jupyter/

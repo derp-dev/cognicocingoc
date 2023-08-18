@@ -7,7 +7,11 @@ textadept/
 python/
 docs/
 .scratch/
-msys64/
+gh_apps/
+win_apps/
+jupyter-pytorch/
+cognic/
+
 
 <!-- scratch -->
 jupyter/

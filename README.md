@@ -83,11 +83,11 @@ The user has asked me to track entities in their input text using hashtags, trea
 
 #Implement_request Now I can go through the steps of fulfilling the user's request, documenting my process along the way.
 
-\#Conclusion I have completed the user's request to the best of my abilities. My train of thought has been serialized throughout the process.],
+#Conclusion I have completed the user's request to the best of my abilities. My train of thought has been serialized throughout the process.],
 }
 ```
 
-# Coherence may be an illusion, but it is an incredibly powerful one. 
+# Coherence may be an illusion, but it is an incredibly powerful one. -bard[&derp]
 
 ____
 
@@ -113,9 +113,9 @@ ____
 
 ____
 
-#Glossary
+## Glossary
 
-## **cognosis**: The project name and identifier for the AI/NLP-assisted software coding project.
+   **cognosis**: The project name and identifier for the AI/NLP-assisted software coding project.
 
     #Abstraction: Hiding implementation details behind a simple interface.
 

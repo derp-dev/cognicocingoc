@@ -9,6 +9,8 @@ jupyterLab
 requests
 flask
 langsmith
+g4f
+e2b
 # Optional: scoop for windows (drop-in apt-get replacement)
 # WezTerm, kitty, etc. for windows
 

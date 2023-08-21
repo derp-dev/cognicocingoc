@@ -1,7 +1,6 @@
 spacy
 docker
 xonsh
-openai
 playwright
 langChain
 jupyter
@@ -11,9 +10,13 @@ flask
 langsmith
 g4f
 e2b
+wandb
+openai
+openai[embeddings]
+openai[wandb]
+openai[datalib]
 # Optional: scoop for windows (drop-in apt-get replacement)
 # WezTerm, kitty, etc. for windows
-
 # nvidia
 # py -m pip install nvidia-pyindex --extra-index-url https://pypi.ngc.nvidia.com
 # py -m pip install nvidia-cuda-runtime-cu12

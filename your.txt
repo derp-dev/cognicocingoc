@@ -1,0 +1,63 @@
+```
+Values
+
+csharp{{key}}: This is a placeholder for a variable or input value that will be replaced with actual content when used.
+
+~{{key}}: The tilde (~) symbol is used to indicate an approximate value or range for the specified key. In this context, it means that the generated content should have a length close to the value of key.
+
++{{key}}: The plus (+) symbol is used to append or concatenate the value of key with another element. In this context, it means adding the specified property or attribute to the generated content.
+
+={{key}}: The equals (=) symbol is used to indicate that the generated content should have an exact match or value equal to key.
+!{{key}}: The exclamation (!) symbol is used to negate or exclude the value of key from the generated content. In this context, it means that the specified property or attribute should not be present in the output.
+
+csharp-{{key}}: The minus (-) symbol is used to remove or subtract the value of key from the generated content. In this context, it means excluding the specified property or attribute from the output.
+
+*{{key}}: The asterisk (*) symbol can be used to indicate that the generated content should repeat the specified property or attribute key times.
+
+>{{key}}: The greater than (>) symbol can be used to indicate that the generated content should have a length greater than the value of key.
+
+<{{key}}: The less than (<) symbol can be used to indicate that the generated content should have a length less than the value of key.
+
+<={{key}}: The less than or equal to (<=) symbol is used to indicate that the generated content should have a length less than or equal to the value of key.
+
+>={{key}}: The greater than or equal to (>=) symbol is used to indicate that the generated content should have a length greater than or equal to the value of key.
+?{{key1}}:{{key2}}: This syntax can be used for conditional expressions, where if the condition specified by key1 is met, the generated content will include key2.
+
+Keywords
+
+vbnetANY: This keyword can be used to indicate that any of the specified conditions or constraints can be met in the generated content, not necessarily all of them.
+
+ALWAYS: This keyword can be used to indicate that a specific condition or constraint should always be met in the generated content.
+
+NEVER: This keyword indicates that a specific condition or constraint should never be met in the generated content.
+
+WITH: This keyword is used to specify that the generated content should include certain properties or attributes.
+
+AND: This keyword is used to combine multiple conditions or constraints in the generated content.
+
+ONLY: This keyword is used to indicate that the generated content should exclusively meet certain conditions or constraints.
+
+NOT: This keyword is used to negate a condition or constraint, meaning that the specified property or attribute should not be present in the output.
+
+UNIQUE: This keyword is used to indicate that the generated content should be original and not duplicate any existing content.
+Functions
+
+cssbetween({{key1}}, {{key2}}): This syntax can be used to specify a range for a certain attribute or property, indicating that the generated content should have a value between key1 and key2.
+
+random({{key1}}, {{key2}},...): This syntax can be used to specify that the generated content should include one of the provided keys at random.
+
+mixed({{key1}}, {{key2}},...): This syntax can be used to specify that the generated content should include a combination of the provided keys.
+
+contains({{key}}): This syntax can be used to indicate that the generated content must contain the specified key.
+
+optimize({{key}}): This syntax can be used to suggest that the generated content should optimize for a certain aspect, such as readability or keyword density, represented by the key.
+
+limit({{key}}, {{value}}): This syntax can be used to set a limit on the number of times the specified key can appear in the generated content.
+Function Arguments
+
+typescriptfn(-{{key}}): This syntax represents a function fn that takes the value of key as an input and removes or subtracts it from the generated content.
+
+fn(*{{key}}): This syntax represents a function fn that takes the value of key as an input and repeats a specific property or attribute key times.
+
+fn(?{{key1}}:{{key2}}): This syntax represents a function fn that takes the values of key1 and key2 as inputs and includes key2 in the generated content if the condition specified by key1 is met
+```

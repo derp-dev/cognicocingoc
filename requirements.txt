@@ -1,24 +1,43 @@
 # <!---- python ---->
+# py -m pip install --upgrade pip
+# py -m pip install --upgrade setuptools
+# py -m pip install --upgrade wheel
+# py -m pip install --upgrade pipenv
+# py -m pip install --upgrade poetry
+
 spacy
 docker
 xonsh
-playwright
 langChain
 jupyter
 jupyterLab
 requests
 flask
-langsmith[all]
-langsmith[all]
+langchain[all]
+langsmith
+chainlit
+numpy
+matplotlib
+pandas
+scipy
+scikit-learn
+scikit-image
+sympy
+cython
 flask[all]
 g4f
-e2b
 wandb
 openai
-chainlit[all]
 openai[embeddings]
 openai[wandb]
 openai[datalib]
+openai[api]
+playwright
+playwright[firefox]
+playwright[webkit]
+playwright[chromium]
+google-generativeai
+markdown
 
 # <!---- nvidia ---->
 # py -m pip install nvidia-pyindex --extra-index-url https://pypi.ngc.nvidia.com
@@ -34,7 +53,11 @@ openai[datalib]
 # <!---- gh_apps ---->
 # git+https://github.com/jina-ai/langchain-serve.git
 
-# <!---- windows11 ---->
+# <!---- apt-get ubuntu ---->
+# cmatrix
+# nvidia-cuda-toolkit
+# neovim
+
+# <!---- winapps ---->
 # scoop for windows (drop-in apt-get replacement)
 # WezTerm, kitty, windows terminal, etc. for windows
-
